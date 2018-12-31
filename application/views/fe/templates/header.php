@@ -1,46 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head>
+<!doctype html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <title><?php echo $Title;?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- Bootstrap -->
-    <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/style.css" rel="stylesheet"> 
-    <link href="<?php echo base_url();?>css/overrides.css" rel="stylesheet"> 
-    <link href="<?php echo base_url();?>css/virtual_keyboard/jquery.ml-keyboard.css" rel="stylesheet">
-    
-    
-    <!--Font-->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
-    
-    
-    
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-      
-      <!-- Fav and touch icons -->
-      <link rel="shortcut icon" href="ico/favicon.ico">
-      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url();?>ico/apple-touch-icon-144-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>ico/apple-touch-icon-72-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>ico/apple-touch-icon-57-precomposed.png">
-
-
-      
-
-    <!-- SCRIPT 
-    ============================================================-->  
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="<?php echo base_url();?>js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url();?>js/virtual_keyboard/demo.js"></script>
-    <script src="<?php echo base_url();?>js/virtual_keyboard/jquery.ml-keyboard.js"></script>
-      
-      
-  </head>
-  <body>
+    <title><?php echo $Title;?></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Montserrat:100,100i,200,200i,300,300i,400,400i,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url();?>fe_assets/css/animate.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>fe_assets/css/main.css">
+</head>

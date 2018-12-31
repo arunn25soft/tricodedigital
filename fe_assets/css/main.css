@@ -393,7 +393,7 @@ hr {
     width: 100%;
     height: auto;
     padding: 30px 0;
-    background-image: url("../images/services-bg.jpg");
+    background-color: #efefef !important;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
